@@ -1,0 +1,25 @@
+
+.TodoCounter {
+    font-size: 24px;
+    text-align: center;
+    margin: 24px;
+    padding: 36px;
+    border: outset;
+    border-radius: 10px;
+    font-weight: normal;
+    
+}
+.TodoCounter span {
+    font-weight: bold;
+}
+.img1 {
+    position:absolute;
+    left: 26px;
+    top: 26px;
+    width: 97.2%;
+    opacity: 0.5;
+    height:105px;
+    object-fit: cover;
+    z-index: -2;
+}
+

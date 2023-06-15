@@ -1,0 +1,9 @@
+.BackgroundDiv {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 200px;     
+    }
+.backgroundImg {  
+    opacity: 0.85;
+        }
