@@ -1,5 +1,6 @@
 
 .divButton {
+
     display: flex;
     justify-content: flex-end;
     margin-right: 144px;
@@ -8,11 +9,12 @@
 
 
 .Boton1 {
+    z-index: 1;
     font-size: xx-large;
     width: 90px;
     height: 90px;
     border-radius: 100%;
-    box-shadow: -3px 3px rgb(102, 18, 170);
+    box-shadow: -2px 2px rgb(102, 18, 170);
     background-color: rgb(114, 95, 219);
 
     transform: rotate(0);
@@ -20,6 +22,6 @@
 }
 
 .Boton1:hover {
-    transform: rotate(224deg);
+    transform: rotate(360deg);
 }
 
