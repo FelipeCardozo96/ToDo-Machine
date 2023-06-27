@@ -22,3 +22,14 @@
     outline-color: rgb(158, 146, 228);
 }
 
+@media(max-width: 768px) {
+    .TodoSearch {
+        font-size: medium;
+        width: 300px;
+        height: 30px;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: -1px 1px rgb(102, 18, 170);
+        background-color: rgb(158, 146, 228);
+    }
+}

@@ -5,6 +5,7 @@
     justify-content: flex-end;
     margin-right: 144px;
     margin-top: 36px;
+    position: static;
 }
 
 
@@ -25,3 +26,14 @@
     transform: rotate(360deg);
 }
 
+@media(max-width: 768px) {
+
+    .Boton1 {
+        width: 35px;
+        height: 35px;
+        box-shadow: -1px 1px rgb(102, 18, 170);
+        position: absolute;
+        bottom: 180px;
+        
+    }
+}

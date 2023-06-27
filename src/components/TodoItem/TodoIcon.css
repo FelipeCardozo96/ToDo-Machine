@@ -39,3 +39,13 @@
   .Icon-container-delete:hover .Icon-svg {
     fill: red;
   }
+
+  @media(max-width: 768px) {
+    .Icon-container {
+
+      height: 20px;
+      width: 20px;
+      font-size: 12px;
+
+    }
+  }
